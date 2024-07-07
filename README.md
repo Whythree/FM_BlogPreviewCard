@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/home/phillip/Projects/FrontEndMentor/BlogPreviewCard/blog-preview-card-main/assets/images/FM_BlogScreenShot.jpg)
+![](./assets/images/FM_BlogScreenShot.jpg)
 
 
 
