@@ -78,6 +78,8 @@ body {
 	border:1px solid var(--black);
 	border-radius: 1.5rem;
 	box-shadow: 12px 12px 0px 0px #000000;
+
+	transition: box-shadow 0.2s ease, color 0.2s ease;
 }
 
 .container:hover {
@@ -86,7 +88,7 @@ body {
 }
 
 .container:hover h1 {
-	color: var(--primary);
+	 color: var(--primary);
 }
 
 .thumbnail-container {
