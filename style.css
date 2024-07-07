@@ -72,12 +72,21 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 520px;
+	max-width: 384px;
 	padding: 1.5rem;
 	background-color: var(--white);
 	border:1px solid var(--black);
 	border-radius: 1.5rem;
 	box-shadow: 12px 12px 0px 0px #000000;
+}
+
+.container:hover {
+	box-shadow: 16px 16px 0px 0px #000000;
+	cursor: pointer;
+}
+
+.container:hover h1 {
+	color: var(--primary);
 }
 
 .thumbnail-container {
@@ -97,7 +106,7 @@ body {
 }
 
 .tag {
-	font-size: var(--font-size-small) ;
+	font-size: 0.9rem ;
 	font-weight: 500;
 	padding:0.25rem 1rem ;
 	background-color: var(--primary);
@@ -119,6 +128,7 @@ h1	{
 small {
 	display: block;
 	font-weight: 500;
+	font-size: 0.9rem;
 }
 
 p {
@@ -130,16 +140,20 @@ p {
 .author-container {
 	display: flex;
 	align-items: center;
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 }
 
 .author-thumbnail {
 	display: inline;
-	height: 3rem;
+	height: 2rem;
 	margin-right: 0.8rem;
 }
 p.author {
 	color:var(--black);
 	font-weight: 800;
 	display: inline;
+}
+
+.attribution {
+	margin-top: 2rem;
 }
